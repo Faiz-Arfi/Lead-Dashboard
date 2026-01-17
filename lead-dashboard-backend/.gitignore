@@ -31,3 +31,11 @@ build/
 
 ### VS Code ###
 .vscode/
+
+#exclude all env except the example ones
+.env
+!.env.example
+.env.local
+!.env.local.example
+.env.development.local
+!.env.development.local.example
